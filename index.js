@@ -71,6 +71,8 @@ app.use('/', require('./api/deletedata'))
 app.use('/', require('./api/approvepost'))
 app.use('/', require('./api/approvedentries'))
 app.use('/', require('./api/markapproval'))
+app.use('/', require('./api/fetchaccounts'))
+app.use('/', require('./api/fetchmines'))
 
 var port = 3000;
 

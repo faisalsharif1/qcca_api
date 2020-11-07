@@ -3,7 +3,7 @@ var connectionstring = {
     user: 'root',
     password: 'Gladiater1',
     database: 'MushtarikaAkhurwalCoalV5',
-    port: 33067
+    port: 3306
 };
 
 
