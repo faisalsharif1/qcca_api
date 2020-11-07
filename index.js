@@ -80,6 +80,9 @@ app.use('/', require('./api/fetchaccountbyid'))
 app.use('/', require('./api/fetchcategorybyid'))
 app.use('/', require('./api/onlinetransactionentry'))
 app.use('/', require('./api/fetchusersbyusername'))
+app.use('/', require('./api/fetchpendinginvoicesonline'))
+app.use('/', require('./api/fetchpendinginvoicebynumber'))
+app.use('/', require('./api/marktransactionprocessed'))
 
 var port = 3000;
 
