@@ -73,6 +73,13 @@ app.use('/', require('./api/approvedentries'))
 app.use('/', require('./api/markapproval'))
 app.use('/', require('./api/fetchaccounts'))
 app.use('/', require('./api/fetchmines'))
+app.use('/', require('./api/fetchprojects'))
+app.use('/', require('./api/fetchemployees'))
+app.use('/', require('./api/fetchbankaccounts'))
+app.use('/', require('./api/fetchaccountbyid'))
+app.use('/', require('./api/fetchcategorybyid'))
+app.use('/', require('./api/onlinetransactionentry'))
+app.use('/', require('./api/fetchusersbyusername'))
 
 var port = 3000;
 
