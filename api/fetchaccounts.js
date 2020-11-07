@@ -11,7 +11,7 @@ module.exports = (function () {
 
         connection.connect();
 
-        connection.query('SELECT * FROM Accounts', function (err, results, fields) {
+        connection.query('SELECT * FROM accounts', function (err, results, fields) {
             if (err) {
                 res.status(500).json({
                     Message: err.sqlMessage
