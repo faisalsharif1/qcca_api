@@ -22,6 +22,7 @@ module.exports = (function () {
         body('*.IsAdmin', 'IsAdmin is necessary').exists(),
         body('*.AccountId', 'AccountId is necessary').exists(),
         body('*.IsSync', 'IsSync is necessary').exists(),
+        body('*.IsAllowedOnWeb', 'IsAllowedOnWeb is necessary').exists(),
     ], (req, res) => {
 
         const errors = validationResult(req);
