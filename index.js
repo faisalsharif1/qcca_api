@@ -83,6 +83,7 @@ app.use('/', require('./api/fetchusersbyusername'))
 app.use('/', require('./api/fetchpendinginvoicesonline'))
 app.use('/', require('./api/fetchpendinginvoicebynumber'))
 app.use('/', require('./api/marktransactionprocessed'))
+app.use('/', require('./api/fetchkantaentries'))
 
 var port = 3000;
 
